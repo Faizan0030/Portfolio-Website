@@ -17,6 +17,6 @@ jobs:
       - name: Install HTMLHint and Stylelint
         run: npm install htmlhint stylelint --save-dev
       - name: Run HTML Linter
-        run: npc htmlhint "**/*.html"
+        run: npx htmlhint "**/*.html"
       - name: Run CSS Linter
-        run: npc stylelint "**/*.css"
+        run: npx stylelint "**/*.css"
